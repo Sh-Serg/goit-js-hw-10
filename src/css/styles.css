@@ -7,7 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #d9e0b4;
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +17,12 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 10px;
+  border: 3px solid rgb(61, 139, 87);
+  background-color: #a3dbc1;
+}
+#search-box:focus {
+  outline: none;
+  border: 3px solid rgb(209, 79, 86);
+  background-color: #eedec9;
 }
