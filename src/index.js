@@ -71,7 +71,7 @@ const createListMarkup = data => {
 const createInfoMarkup = data => {
   return data.map(
     ({ name, capital, population, flags, languages }) =>
-      `<img src="${flags.png}" alt="${name.official}" width="200" height="100">
+      `<img src="${flags.png}" alt="${name.official}" width="300" height="150">
       <h1>${name.official}</h1>
       <p>Capital: ${capital}</p>
       <p>Population: ${population}</p>

@@ -14,15 +14,21 @@ body {
 
 #search-box {
   font: inherit;
-  padding: 8px;
+  padding: 15px;
   max-width: 320px;
   margin-bottom: 16px;
   border-radius: 10px;
   border: 3px solid rgb(61, 139, 87);
   background-color: #a3dbc1;
+  font-size: 20px;
+  font-weight: 500;
 }
 #search-box:focus {
   outline: none;
   border: 3px solid rgb(209, 79, 86);
   background-color: #eedec9;
+}
+p {
+  font-size: 22px;
+  font-weight: 400;
 }
